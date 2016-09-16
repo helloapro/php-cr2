@@ -1,7 +1,7 @@
 <?php
-    class Word
+    class RepeatCounter
     {
-        function wordFrequency($input)
+        function countRepeats($inputWord, $inputSentence)
         {
             return;
         }
