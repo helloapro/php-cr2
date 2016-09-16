@@ -8,10 +8,9 @@
 
 This application counts the number in which a specific word appears within a sentence entered by the user.
 
-## Setup/Installation Instructions ##
+## User Setup/Installation Instructions ##
 
-* Create new git repository
-* Set up initial files and folders for php functionality
+* Clone git repository
 * Using the command line, navigate to the project's root directory
 * Install dependencies by running $ composer install
 * Navigate to the /web directory and start a local server with $ php -S localhost:8000
