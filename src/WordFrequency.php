@@ -3,7 +3,14 @@
     {
         function countRepeats($inputWord, $inputSentence)
         {
-            return;
+            $sentenceArray = preg_split("/[,.?!\s]/", strtolower($inputSentence));
+            $count = 0;
+            foreach ($sentenceArray as $wordInstance) {
+                if (strtolower($inputWord) == $wordInstance) {
+                    $count++;
+                }
+            }
+            return $count;
         }
     }
 ?>
