@@ -19,33 +19,15 @@ This application counts the number in which a specific word appears within a sen
 
 ## Specifications ##
 
-* Return plain english string of single-digit number.
-    * input: 1
-    * output: "one"
+* Two inputs consisting of a word and a sentence. The application confirms whether there is an instance of that word.
+    * input1: "bike"
+    * input2: "I love riding my bike to brunch!"
+    * output: true
 
-* Return plain english string of double-digit number.
-    * input: 23
-    * output: "twenty-three"
-
-* Return plain english string of triple-digit number.
-    * input: 563
-    * output: "five hundred sixty-three"
-
-* Return plain english string of 4-digit number.
-    * input: 7090
-    * output: "seven thousand ninety"
-
-* Return plain english string of 7-digit number.
-    * input: 2015300
-    * output: "two million fifteen thousand three hundred"
-
-* Return plain english string of 4-digit number.
-    * input: 23
-    * output: "twenty-three"
-
-* Handle special cases.
-    * input: 12
-    * output: "twelve"
+* Two inputs consisting of a word and a sentence. The application returns actual number of instances of that word in the sentence.
+    * input1: "bike"
+    * input2: "I love riding my bike to brunch!"
+    * output: 1
 
 
 
