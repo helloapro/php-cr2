@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Word Frequency</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Word Frequency Counter</h2>
+            <form action="/process" method="post">
+                <label for='sentence'>Enter a sentence!</label>
+                <input type='text' id='sentence' name='sentence' class='form-control' placeholder="Your amazing prose here...">
+
+                <label for='word'>Let's count the occurrence of a specific word!</label>
+                <input type='text' id='word' name='word' class='form-control' placeholder="How repetitious are you with this word?">
+
+                <button type='submit' class="btn btn-success">SUBMIT</button>
+            </form>
+        </div>
+    </body>
+</html>
