@@ -4,10 +4,10 @@
         function countRepeats($inputWord, $inputSentence)
         {
             $inputSentence = preg_replace("#[[:punct:]]#", "", $inputSentence);
-            $sentenceArray = explode(" ", $inputSentence);
+            $sentenceArray = explode(" ", strtolower($inputSentence));
             $count = 0;
             foreach ($sentenceArray as $wordMatch) {
-                if($inputWord == $wordMatch) {
+                if(strtolower($inputWord) == $wordMatch) {
                     $count++;
                 }
             }

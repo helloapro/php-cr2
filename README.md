@@ -33,10 +33,10 @@ This application counts the number in which a specific word appears within a sen
     * input2: "If you want to pet my cat, you'll have to ask my cat permission, because she's a very peculiar cat."
     * output: 3
 
-<!-- * Two inputs consisting of a word and a sentence. The application searches and counts multiple instances of that word without consideration of capitalization or punctuation.
+* Two inputs consisting of a word and a sentence. The application searches and counts multiple instances of that word without consideration of capitalization or punctuation.
     * input1: "Cat"
     * input2: "If you want to pet my cat, you'll have to ask my cat permission, because she's a very peculiar cat."
-    * output: 3 -->
+    * output: 3
 
 ## Known Bugs ##
 

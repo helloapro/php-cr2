@@ -35,27 +35,17 @@
 
             $this->assertEquals(3, $result);
         }
-        //
-        // function test_word_search_multi_caps()
-        // {
-        //     $test_repeatCounter = new RepeatCounter;
-        //     $inputWord = "cat";
-        //     $inputSentence = "Cat! Bat. Cat. Mat cat cat cat cat dog fish uggghhh catfish";
-        //
-        //     $result = $test_repeatCounter->countRepeats($inputWord, $inputSentence);
-        //
-        //     $this->assertEquals(6, $result);
-        // }
-        //
-        // function test_word_search_multi_input_caps()
-        // {
-        //     $test_repeatCounter = new RepeatCounter;
-        //     $inputWord = "Cat";
-        //     $inputSentence = "Cat! Bat. Cat. Mat cat cat cat cat dog fish uggghhh catfish";
-        //
-        //     $result = $test_repeatCounter->countRepeats($inputWord, $inputSentence);
-        //
-        //     $this->assertEquals(6, $result);
-        // }
+
+        function test_word_search_count_punctuation_caps()
+        {
+            $test_repeatCounter = new RepeatCounter;
+            $inputWord = "cat";
+            $inputSentence = "Cat! Bat. Cat. Mat cat cat cat cat dog fish uggghhh catfish";
+
+            $result = $test_repeatCounter->countRepeats($inputWord, $inputSentence);
+
+            $this->assertEquals(6, $result);
+        }
+        
     }
 ?>
