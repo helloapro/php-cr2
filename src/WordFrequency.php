@@ -3,14 +3,20 @@
     {
         function countRepeats($inputWord, $inputSentence)
         {
-            $sentenceArray = preg_split("/[,.?!\s]/", strtolower($inputSentence));
-            $count = 0;
-            foreach ($sentenceArray as $wordInstance) {
-                if (strtolower($inputWord) == $wordInstance) {
-                    $count++;
+            $sentenceArray = explode(" ", $inputSentence);
+            foreach ($sentenceArray as $wordMatch) {
+                if($inputWord == $wordMatch) {
+                    return true;
                 }
             }
-            return $count;
+            // $sentenceArray = preg_split("/[,.?!\s]/", strtolower($inputSentence));
+            // $count = 0;
+            // foreach ($sentenceArray as $wordInstance) {
+            //     if (strtolower($inputWord) == $wordInstance) {
+            //         $count++;
+            //     }
+            // }
+            // return $count;
         }
     }
 ?>
