@@ -23,15 +23,15 @@ This application counts the number in which a specific word appears within a sen
     * input2: "I love riding my bike to brunch!"
     * output: true
 
-* Two inputs consisting of a word and a sentence. The application searches for multiple instances of that word without consideration of punctuation.
+* Two inputs consisting of a word and a sentence. The application searches and counts instances of that word.
     * input1: "cat"
-    * input2: "If you want to pet my cat, you'll have to ask my cat permission, because she's a very peculiar cat."
-    * output: 3
+    * input2: "If you want to pet my cat, you'll have to ask my cat permission, because she's a very peculiar cat indeed."
+    * output: 2
 
-* Two inputs consisting of a word and a sentence. The application searches for multiple instances of that word without consideration of capitalization or punctuation.
+<!-- * Two inputs consisting of a word and a sentence. The application searches for multiple instances of that word without consideration of capitalization or punctuation.
     * input1: "Cat"
     * input2: "If you want to pet my cat, you'll have to ask my cat permission, because she's a very peculiar cat."
-    * output: 3
+    * output: 3 -->
 
 ## Known Bugs ##
 

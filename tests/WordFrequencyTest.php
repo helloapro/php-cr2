@@ -14,6 +14,17 @@
             $this->assertEquals(true, $result);
         }
 
+        function test_word_search_count()
+       {
+           $test_repeatCounter = new RepeatCounter;
+           $inputWord = "cat";
+           $inputSentence = "If you want to pet my cat, you'll have to ask my cat permission, because she's a very peculiar cat indeed.";
+
+           $result = $test_repeatCounter->countRepeats($inputWord, $inputSentence);
+
+           $this->assertEquals(2, $result);
+       }
+
         // function test_word_punctuation()
         // {
         //     $test_repeatCounter = new RepeatCounter;
@@ -23,17 +34,6 @@
         //     $result = $test_repeatCounter->countRepeats($inputWord, $inputSentence);
         //
         //     $this->assertEquals(1, $result);
-        // }
-        //
-        // function test_word_search_multiple()
-        // {
-        //     $test_repeatCounter = new RepeatCounter;
-        //     $inputWord = "cat";
-        //     $inputSentence = "If you want to pet my cat, you'll have to ask my cat permission, because she's a very peculiar cat.";
-        //
-        //     $result = $test_repeatCounter->countRepeats($inputWord, $inputSentence);
-        //
-        //     $this->assertEquals(3, $result);
         // }
         //
         // function test_word_search_multi_caps()

@@ -4,11 +4,13 @@
         function countRepeats($inputWord, $inputSentence)
         {
             $sentenceArray = explode(" ", $inputSentence);
+            $count = 0;
             foreach ($sentenceArray as $wordMatch) {
                 if($inputWord == $wordMatch) {
-                    return true;
+                    $count++;
                 }
             }
+            return $count;
             // $sentenceArray = preg_split("/[,.?!\s]/", strtolower($inputSentence));
             // $count = 0;
             // foreach ($sentenceArray as $wordInstance) {
