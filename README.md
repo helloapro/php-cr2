@@ -18,10 +18,10 @@ This application counts the number in which a specific word appears within a sen
 
 ## Specifications ##
 
-* Two inputs consisting of a word and a sentence. The application searches for one instance of that word in the sentence.
+* Two inputs consisting of a word and a sentence. The application searches if word exists in sentence.
     * input1: "bike"
     * input2: "I love riding my bike to brunch!"
-    * output: 1
+    * output: true
 
 * Two inputs consisting of a word and a sentence. The application searches for multiple instances of that word without consideration of punctuation.
     * input1: "cat"
