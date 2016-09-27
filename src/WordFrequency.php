@@ -3,15 +3,22 @@
     {
         function countRepeats($inputWord, $inputSentence)
         {
-            $inputSentence = preg_replace("#[[:punct:]]#", "", $inputSentence);
-            $sentenceArray = explode(" ", strtolower($inputSentence));
+            $wordCharacterArray = explode("", inputWord);
+            $sentenceCharacterArray = explode("", $inputSentence);
             $count = 0;
-            foreach ($sentenceArray as $wordMatch) {
-                if(strtolower($inputWord) == $wordMatch) {
-                    $count++;
-                }
+            foreach ($characterArray as $characterMatch) {
+                
             }
-            return $count;
+
+            // $inputSentence = preg_replace("#[[:punct:]]#", "", $inputSentence);
+            // $sentenceArray = explode(" ", strtolower($inputSentence));
+            // $count = 0;
+            // foreach ($sentenceArray as $wordMatch) {
+            //     if(strtolower($inputWord) == $wordMatch) {
+            //         $count++;
+            //     }
+            // }
+            // return $count;
 
             //original code using reg expression
             // $sentenceArray = preg_split("/[,.?!\s]/", strtolower($inputSentence));

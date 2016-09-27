@@ -18,7 +18,7 @@
        {
            $test_repeatCounter = new RepeatCounter;
            $inputWord = "cat";
-           $inputSentence = "If you want to pet my cat, you'll have to ask my cat permission, because she's a very peculiar indeed.";
+           $inputSentence = "You'll have to ask my cat permission if you want to pet her, because she's very peculiar cat indeed.";
 
            $result = $test_repeatCounter->countRepeats($inputWord, $inputSentence);
 
@@ -46,6 +46,6 @@
 
             $this->assertEquals(6, $result);
         }
-        
+
     }
 ?>
